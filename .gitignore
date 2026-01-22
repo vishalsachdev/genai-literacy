@@ -1,0 +1,5 @@
+# PDFs (too large for repo)
+*.pdf
+
+# Claude Code local files
+.claude/
