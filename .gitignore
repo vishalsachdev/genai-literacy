@@ -12,3 +12,5 @@ slides/*.html
 
 # Animation output
 animation-pipeline/output/
+node_modules/
+output/

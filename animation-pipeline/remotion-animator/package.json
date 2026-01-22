@@ -1,0 +1,25 @@
+{
+  "name": "remotion-animator",
+  "version": "1.0.0",
+  "description": "Animate Excalidraw diagrams with Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render ExcalidrawAnimation",
+    "build": "remotion bundle"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.407",
+    "@remotion/cli": "^4.0.407",
+    "@remotion/renderer": "^4.0.407",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "^4.0.407"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}

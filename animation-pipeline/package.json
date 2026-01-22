@@ -1,0 +1,16 @@
+{
+  "name": "animation-pipeline",
+  "version": "1.0.0",
+  "description": "RSA Animate-style \"drawing\" animations from Excalidraw diagrams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer": "^24.35.0"
+  }
+}
