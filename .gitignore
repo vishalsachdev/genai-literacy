@@ -3,3 +3,12 @@
 
 # Claude Code local files
 .claude/
+
+# macOS
+.DS_Store
+
+# Generated slides
+slides/*.html
+
+# Animation output
+animation-pipeline/output/
