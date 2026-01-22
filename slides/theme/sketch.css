@@ -1,0 +1,479 @@
+/* @theme sketch */
+
+/*
+ * RSA Animate / Hand-Drawn Style Theme for Marp
+ * GenAI for Teacher Productivity Micro-credential
+ *
+ * Aesthetic: Black ink on white paper, hand-drawn feel,
+ * minimal color accents, sketch fonts
+ */
+
+@import 'default';
+
+/* ============================================
+   GOOGLE FONTS - Hand-drawn typography
+   ============================================ */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&family=Caveat:wght@400;500;600&display=swap');
+
+/* ============================================
+   DESIGN TOKENS
+   ============================================ */
+:root {
+  /* Ink & Paper - Core RSA Animate palette */
+  --color-ink: #2d2d2d;
+  --color-ink-light: #5a5a5a;
+  --color-paper: #fefefe;
+  --color-paper-alt: #f9f7f3;
+
+  /* Accent Colors - Use sparingly like RSA Animate */
+  --color-accent-red: #e63946;      /* Warnings, important points */
+  --color-accent-blue: #457b9d;     /* Links, tech concepts */
+  --color-accent-green: #2a9d8f;    /* Success, positive */
+  --color-accent-yellow: #f4a261;   /* Highlights, attention */
+
+  /* Typography */
+  --font-body: 'Patrick Hand', cursive;
+  --font-heading: 'Architects Daughter', cursive;
+  --font-accent: 'Caveat', cursive;
+
+  /* Sizing */
+  --font-size-base: 28px;
+  --font-size-h1: 56px;
+  --font-size-h2: 44px;
+  --font-size-h3: 36px;
+  --font-size-small: 22px;
+
+  /* Sketch Effects */
+  --sketch-border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  --sketch-border-radius-alt: 15px 255px 15px 225px / 225px 15px 255px 15px;
+
+  /* Spacing */
+  --spacing-unit: 8px;
+}
+
+/* ============================================
+   BASE SLIDE STYLES
+   ============================================ */
+section {
+  font-family: var(--font-body);
+  font-size: var(--font-size-base);
+  color: var(--color-ink);
+  background: var(--color-paper);
+  padding: 48px 64px;
+  line-height: 1.5;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+section h1 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-h1);
+  color: var(--color-ink);
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+section h2 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-h2);
+  color: var(--color-ink);
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+section h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-h3);
+  color: var(--color-ink-light);
+  margin-bottom: 16px;
+}
+
+section p {
+  margin-bottom: 16px;
+}
+
+section strong {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+section em {
+  font-family: var(--font-accent);
+  font-size: 1.1em;
+}
+
+/* ============================================
+   LISTS
+   ============================================ */
+section ul, section ol {
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+
+section li {
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+section li::marker {
+  color: var(--color-accent-blue);
+}
+
+/* Nested lists */
+section ul ul, section ol ol {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+section a {
+  color: var(--color-accent-blue);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 4px;
+}
+
+/* ============================================
+   BLOCKQUOTES - Key insights
+   ============================================ */
+section blockquote {
+  font-family: var(--font-accent);
+  font-size: 32px;
+  color: var(--color-ink);
+  border-left: 4px solid var(--color-accent-red);
+  padding: 16px 24px;
+  margin: 24px 0;
+  background: var(--color-paper-alt);
+  border-radius: 0 var(--sketch-border-radius-alt);
+}
+
+section blockquote p {
+  margin: 0;
+}
+
+/* ============================================
+   CODE & TECHNICAL CONTENT
+   ============================================ */
+section code {
+  font-family: 'Courier New', monospace;
+  background: var(--color-paper-alt);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+section pre {
+  background: var(--color-paper-alt);
+  border: 2px solid var(--color-ink-light);
+  border-radius: var(--sketch-border-radius);
+  padding: 16px;
+  overflow-x: auto;
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+section table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 24px 0;
+}
+
+section th {
+  font-family: var(--font-heading);
+  background: var(--color-paper-alt);
+  border-bottom: 3px solid var(--color-ink);
+  padding: 12px 16px;
+  text-align: left;
+}
+
+section td {
+  border-bottom: 1px dashed var(--color-ink-light);
+  padding: 12px 16px;
+}
+
+section tr:last-child td {
+  border-bottom: none;
+}
+
+/* ============================================
+   IMAGES
+   ============================================ */
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 16px auto;
+}
+
+/* Image with sketch border */
+section img.sketch-border {
+  border: 3px solid var(--color-ink);
+  border-radius: var(--sketch-border-radius);
+  padding: 8px;
+  background: var(--color-paper);
+}
+
+/* ============================================
+   SKETCH COMPONENT CLASSES
+   ============================================ */
+
+/* Sketch box - wobbly border container */
+.sketch-box {
+  border: 2px solid var(--color-ink);
+  border-radius: var(--sketch-border-radius);
+  padding: 20px 24px;
+  margin: 16px 0;
+  background: var(--color-paper);
+}
+
+.sketch-box-alt {
+  border: 2px solid var(--color-ink);
+  border-radius: var(--sketch-border-radius-alt);
+  padding: 20px 24px;
+  margin: 16px 0;
+  background: var(--color-paper-alt);
+}
+
+/* Callout - accent border */
+.callout {
+  border-left: 4px solid var(--color-accent-red);
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.callout-blue {
+  border-left: 4px solid var(--color-accent-blue);
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.callout-green {
+  border-left: 4px solid var(--color-accent-green);
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+/* Hand-drawn underline */
+.underline {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--color-accent-red);
+  text-underline-offset: 4px;
+}
+
+/* Highlight - like marker */
+.highlight {
+  background: linear-gradient(180deg, transparent 60%, var(--color-accent-yellow) 60%);
+  padding: 0 4px;
+}
+
+/* Big number - for statistics */
+.big-number {
+  font-family: var(--font-heading);
+  font-size: 72px;
+  color: var(--color-accent-blue);
+  line-height: 1;
+}
+
+/* Caption text */
+.caption {
+  font-size: var(--font-size-small);
+  color: var(--color-ink-light);
+  font-style: italic;
+}
+
+/* ============================================
+   LAYOUT CLASSES
+   ============================================ */
+
+/* Two-column layout */
+section.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+section.columns > * {
+  min-width: 0;
+}
+
+/* Three-column layout */
+section.columns-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+/* Center content */
+section.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Image left, text right */
+section.image-left {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+/* Image right, text left */
+section.image-right {
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  gap: 48px;
+  align-items: center;
+}
+
+/* ============================================
+   SPECIAL SLIDE TYPES
+   ============================================ */
+
+/* Title slide */
+section.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--color-paper);
+}
+
+section.title h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+section.title h2 {
+  font-family: var(--font-body);
+  font-size: 32px;
+  color: var(--color-ink-light);
+  font-weight: normal;
+}
+
+/* Quote slide */
+section.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 64px;
+}
+
+section.quote blockquote {
+  font-size: 40px;
+  border: none;
+  background: none;
+  max-width: 80%;
+}
+
+section.quote .attribution {
+  font-family: var(--font-body);
+  font-size: var(--font-size-small);
+  color: var(--color-ink-light);
+  margin-top: 24px;
+}
+
+/* Summary/takeaway slide */
+section.summary {
+  background: var(--color-paper-alt);
+}
+
+section.summary h2 {
+  color: var(--color-accent-blue);
+}
+
+/* Section divider */
+section.divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+section.divider h1 {
+  color: var(--color-paper);
+  font-size: 56px;
+}
+
+section.divider h2 {
+  color: var(--color-paper-alt);
+  font-weight: normal;
+}
+
+/* ============================================
+   PAGINATION
+   ============================================ */
+section::after {
+  font-family: var(--font-body);
+  font-size: 18px;
+  color: var(--color-ink-light);
+}
+
+/* ============================================
+   HEADER & FOOTER
+   ============================================ */
+header {
+  font-family: var(--font-body);
+  font-size: 18px;
+  color: var(--color-ink-light);
+}
+
+footer {
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--color-ink-light);
+}
+
+/* ============================================
+   ICON INTEGRATION
+   ============================================ */
+
+/* Inline icon sizing */
+.icon-sm { width: 24px; height: 24px; vertical-align: middle; }
+.icon-md { width: 48px; height: 48px; vertical-align: middle; }
+.icon-lg { width: 72px; height: 72px; vertical-align: middle; }
+.icon-xl { width: 96px; height: 96px; }
+
+/* Icon with text */
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.icon-text img {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS FOR EXPORT
+   ============================================ */
+
+/* Ensure good contrast for PDF export */
+@media print {
+  section {
+    background: white !important;
+  }
+
+  section a {
+    text-decoration: underline;
+  }
+}

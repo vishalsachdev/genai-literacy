@@ -1,0 +1,16 @@
+# Marp CLI Configuration
+# Run: npx @marp-team/marp-cli slides/video-1-slides.md
+
+# Allow local file access for images
+allowLocalFiles: true
+
+# Register custom themes
+themeSet:
+  - ./theme/sketch.css
+
+# Enable HTML in markdown
+html: true
+
+# Output options (uncomment as needed)
+# output: ./dist/
+# pdf: true
