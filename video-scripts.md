@@ -1,7 +1,6 @@
 # GenAI for Teacher Productivity — Video Scripts
 
-**Teleprompter-Ready Content for Studio Recording**
-6 videos | ~60 minutes total | Focus: Teacher professional productivity
+
 
 ---
 
@@ -16,11 +15,11 @@ Teachers spend large amounts of time on repetitive but necessary professional ta
 
 Generative AI can assist with first drafts, summaries, and organization. When used well, it does not replace professional expertise. Instead, it reduces friction in everyday workflows. International guidance, including UNESCO's AI Competency Framework for Teachers, positions AI as a support for professional learning and growth, with teachers remaining firmly in control.
 
-It's important to be clear about the scope of this course. We will focus only on teacher productivity. We will not address student use of AI, automated grading, or classroom AI policies. The emphasis is on ethical, low-risk uses that support your work while preserving professional responsibility and judgment.
+It’s important to be clear about the scope of this course. Our focus is on teacher productivity and professional practice. We do not address student use of AI, automated grading, or classroom AI policies. The emphasis is on ethical, low-risk uses of generative AI that support your work while preserving professional responsibility and professional judgment. This approach is grounded in UNESCO’s guidance on AI in education.
 
 Throughout this course, we will use two types of AI tools. The first is a general-purpose AI—useful for drafting, brainstorming, and open-ended tasks. The second is a source-grounded AI—one that works only with documents you upload, so it cannot hallucinate beyond your sources. The accompanying screencasts will show you specific tools your school provides. You will learn how to use AI by actually using it—each video is paired with a hands-on demo where you'll see these tools in action.
 
-By the end of this micro-credential, you will have practical workflows, reusable prompt patterns, and a clearer understanding of when AI helps, when it does not, and how to use it responsibly in your professional life.
+By the end of this course, you will have practical workflows, reusable prompt patterns, and a clearer understanding of when AI helps, when it does not, and how to use it responsibly in your professional life.
 
 Let's start by understanding how these tools actually work.
 
@@ -35,13 +34,13 @@ Welcome back. In the last video, we talked about why AI matters for teacher prod
 
 Here is the key insight: generative AI is autocomplete on steroids. Think about when you type a text message and your phone suggests the next word. Generative AI does the same thing, but at a much larger scale. It predicts what words are most likely to come next based on patterns it learned from billions of documents during training. When you type a prompt, the AI does not search a database for an answer. It does not reason the way humans do. It does not verify facts. It produces plausible-sounding responses based on statistical patterns.
 
-This distinction matters because it explains both the strengths and the limitations of these tools. AI excels at tasks that involve generating fluent text based on patterns it has seen before. Drafting is one of them. Need a first draft of an email, a meeting agenda, or a summary? AI can produce something usable in seconds. Reorganizing information is another strength—turning bullet points into prose, or vice versa. Brainstorming works well because AI generates lists of ideas quickly, which you then evaluate and refine. Changing tone or format is straightforward. These are common teacher productivity tasks, and AI handles them well.
+This distinction matters because it explains both the strengths and the limitations of these tools. AI excels at tasks that involve generating fluent text(or images, audio and now video too) based on patterns it has seen before. Drafting is one of them. Need a first draft of an email, a meeting agenda, or a summary? AI can produce something usable in seconds. Reorganizing information is another strength—turning bullet points into prose, or vice versa. Brainstorming works well because AI generates lists of ideas quickly, which you then evaluate and refine. Changing tone or format is straightforward. These are common teacher productivity tasks, and AI handles them well.
 
 However, AI has real limitations that follow directly from how it works. Because it predicts likely words rather than reasoning about truth, it can hallucinate—producing information that sounds confident but is factually wrong. It can oversimplify complex topics or miss important nuance. It can reflect biases present in its training data. Think of it this way: AI has read a lot, but it does not know what is true. It knows what sounds right based on patterns. This is why AI output must always be reviewed and edited by a professional educator.
 
 A helpful way to think about generative AI is as a junior assistant. Imagine a new staff member who is eager, fast, and willing to take on any task you give them. They can draft documents, organize information, and brainstorm ideas. But they lack experience. They do not know your school, your students, or your professional context. They will make mistakes. You would never send their work out without reviewing it first. The same is true for AI. It can save you time on first drafts and routine tasks, but it always requires your supervision and final approval.
 
-There are two types of AI tools worth understanding. General-purpose AI tools are like an open-book generalist—they draw on broad training data to help with brainstorming, drafting, and open-ended tasks. Source-grounded AI tools are different. They work only with documents you upload. They cannot make things up from the internet. They can only tell you what is in your sources, with citations you can verify. Think of general-purpose AI as an open-book generalist and source-grounded AI as a closed-book research librarian.
+There are two types of AI tools worth understanding. General-purpose AI tools are like an open-book generalist—they draw on broad training data to help with brainstorming, drafting, and open-ended tasks. This would be your typical use of ChatGPT, Claude or Gemini among others.    Source-grounded AI tools are different. They work only with documents you upload. They cannot make things up from the internet. They can only tell you what is in your sources, with citations you can verify. Think of general-purpose AI as an open-book generalist and source-grounded AI as a closed-book research librarian.
 
 In the accompanying screencast, you will see how to access these tools and try your first prompts. Once you have that foundation, we will turn to something equally important: using these tools responsibly.
 
@@ -56,8 +55,11 @@ Welcome back. Now that you understand how AI works, let's talk about how to use 
 
 Let's start with the most important principle: privacy and confidentiality. When you type something into a public AI tool, that information gets processed on external servers—servers you do not control. This means you should never input student names, grades, behavior records, IEP information, or any other identifiable student data into AI tools. The same goes for confidential staff information, sensitive internal communications, or anything FERPA or your district's data policies protect.
 
-This does not mean you cannot use AI for tasks involving students or personnel. It means you must anonymize and generalize before you type. Instead of writing "summarize this behavior report for Marcus Johnson in my third period class," you would write "summarize a behavior report for a middle school student who has difficulty staying on task." Remove names, dates, and identifying details. Describe the situation in general terms. This allows you to get useful AI assistance without compromising anyone's privacy.
+In some professional situations, teachers may want general guidance related to student-facing work. When that happens, it is essential to remove all identifying information before using AI tools.
 
+This means you do not enter names, dates, class periods, or specific details. Instead of writing, ‘Summarize this behavior report for Marcus Johnson in my third period class,’ you would write something like, ‘Summarize a behavior report for a middle school student who has difficulty staying on task.’
+
+By generalizing the situation and removing identifying details, you can get useful assistance while protecting student privacy and maintaining professional responsibility. Always follow your local policies and use your professional judgment
 Some AI tools offer stronger privacy protections than others. When you use AI tools through your school account, your data typically stays within your organization's domain, and the company does not use it to train their models. This is different from using a personal account on a public AI service. Always use your school-provided tools and accounts for professional work when available.
 
 The second consideration is bias. Remember what we said in the last video—AI is autocomplete on steroids, predicting likely words based on patterns. Those patterns come from human language and culture, including its biases. AI suggestions may contain hidden assumptions about race, gender, ability, or socioeconomic status. These biases are often subtle. An AI might suggest language that sounds professional but carries unintended connotations.
@@ -93,11 +95,11 @@ Here is an example that uses all five elements: "Act as a professional K-12 educ
 
 When a prompt produces weak output, check which element is missing. If the tone is wrong, specify it. If the output is too long, add a length constraint. If it sounds generic, add more context about your audience.
 
-You do not need to write perfect prompts on your first try. Start simple. See what the AI returns. Then refine based on what is missing. This iterative approach—prompt, review, refine—is often faster than trying to craft a perfect prompt upfront. Think of it as a conversation with that junior assistant: you give initial instructions, see what they produce, then provide feedback.
+You do not need to write perfect prompts on your first try. Start simple. See what the AI returns. Then refine based on what is missing. This iterative approach—prompt, review, refine—is often faster than trying to craft a perfect prompt upfront. Think of it as a conversation with that junior assistant: you give initial instructions, see what they produce, then provide feedback. 
 
 Once you have output from AI, your work is not done. AI output is always a draft. It does not know your school, your students, your relationships, or the specific context of your communication. Read everything the AI produces. Check facts if any are included. Adjust the tone to match your voice. Add details that only you know. Remove anything that does not fit. The goal is not to use AI output as-is. The goal is to start further along than a blank page.
 
-Over time, you will develop a library of prompts that work well for your recurring tasks. A prompt that produces a good weekly newsletter draft can be reused and refined. In the screencast, you will see these prompting techniques in action and how to save effective prompts for reuse.
+Over time, you will develop a library of prompts that work well for your recurring tasks. A prompt that produces a good weekly newsletter draft can be reused and refined. You can save your best prompts as 'skills'for your junior assistant and use them in the future. In the screencast, you will see these prompting techniques in action and how to save effective prompts for reuse.
 
 Writing is just one part of your workload. In the next video, we will tackle something equally demanding: managing the constant flow of information that comes with teaching.
 
@@ -120,7 +122,7 @@ Beyond summarization, AI can help with planning and task breakdown. Complex prof
 
 AI can help you break a large task into manageable steps. You can describe what you need to accomplish and ask for a step-by-step breakdown. You can request a suggested timeline or sequence. This gives you a starting structure that you then adapt to your actual constraints.
 
-The key word is adapt. AI does not know your calendar, your workload, or your school's priorities. It will suggest steps that sound reasonable in the abstract but may not fit your reality. Your job is to review AI suggestions against what you actually know. Adjust timelines. Reorder steps based on dependencies you understand. Add tasks the AI missed. Remove steps that do not apply. The AI provides a starting point. You provide the professional judgment.
+The key word is adapt. AI does not know your calendar, your workload, or your school's priorities. It will suggest steps that sound reasonable in the abstract but may not fit your reality. You provide the context, the objectives, and the constraints. Your job is to review AI suggestions against what you actually know. Adjust timelines. Reorder steps based on dependencies you understand. Add tasks the AI missed. Remove steps that do not apply. The AI provides a starting point. You provide the professional judgment. And you can save the final AI workflow as 'skills' for your junior assistant to use in the future.
 
 In the screencast, you will see how to upload documents to a source-grounded AI tool, ask questions with citations, generate audio summaries, and use general-purpose AI for task breakdown and planning.
 
@@ -158,35 +160,3 @@ Over these six videos, we have covered a lot: how AI works, why ethics matter, h
 In the final screencast, you will see how to use AI for reflection and how to audit your own AI use for sustainability.
 
 Thank you for spending this time with me. Teaching is demanding work, and anything that gives you back even a little time and energy is worth exploring. I hope these tools serve you well—not as a replacement for what you do, but as support for the professional you already are.
-
----
-
-## Appendix: Competency Framework Alignment
-
-### UNESCO AI Competency Framework for Teachers (2024)
-
-| Video | UNESCO Dimension(s) | Level |
-|-------|---------------------|-------|
-| 1. Why GenAI | Human-centred mindset; AI for professional learning | Acquire |
-| 2. Foundations | AI foundations & applications | Acquire |
-| 3. Ethics | Ethics of AI; Human-centred mindset | Acquire |
-| 4. Writing & Communication | AI foundations & applications; AI for professional learning | Acquire → Deepen |
-| 5. Organizing Information | AI foundations & applications | Acquire → Deepen |
-| 6. Reflection & Growth | AI for professional learning; Human-centred mindset | Acquire |
-
-### T-GAIC Instrument Dimensions
-
-| Video | T-GAIC Dimension(s) |
-|-------|---------------------|
-| 1. Why GenAI | Professional development (GPD) |
-| 2. Foundations | Technological proficiency (TP) |
-| 3. Ethics | Risk & ethical awareness (REA) |
-| 4. Writing & Communication | Technological proficiency (TP); Professional development (GPD) |
-| 5. Organizing Information | Technological proficiency (TP) |
-| 6. Reflection & Growth | Professional development (GPD) |
-
-*Note: Pedagogical compatibility (PC) and Preparing students (PS) dimensions are intentionally excluded—this micro-credential focuses on teacher productivity, not classroom AI use.*
-
----
-
-**End of Video Scripts**
